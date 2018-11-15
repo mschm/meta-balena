@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.27.0
+## (2018-11-15)
+
+* Increase timeout for filesystem label [Vicentiu Galanopulo]
+* Add support for Huawei ME936 modem in MBIM mode [Florin Sarbu]
+* Backport systemd sd-shutdown improvements for sumo versions [Florin Sarbu]
+* Include avahi d-bus introspection files in rootfs [Andrei Gherzan]
+* Fix custom udev rules when rule is removed from config.json [Zubair Lutfullah Kakakhel]
+* resin-mounts: Add NetworkManager conf.d bind mounts [Zubair Lutfullah Kakakhel]
+* Add support to pass custom configuration to NetworkManager [Zubair Lutfullah Kakakhel]
+* README.md: Add info about SSH and Avahi services [Andrei Gherzan]
+* Avoid xtables lock in resin-proxy-config [Andrei Gherzan]
+* Migrate the supervisor to balena repositories [Florin Sarbu]
+* Update balena-supervisor to v8.3.5 [Cameron Diver]
+* Update supported modems list [Florin Sarbu]
+
 # v2.26.0
 ## (2018-11-05)
 
